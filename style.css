@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+  
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #f42b03;
+    background: linear-gradient(316deg, #f42b03 0%, #ffbe0b 74%);    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.img-circle{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-image: url(./img/WhatsApp\ Image\ 2024-02-18\ at\ 21.22.54_d6c9d61d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-box1{
+    border: 3px solid #000;
+    text-align: center;
+    cursor: pointer;
+}
+.about-box2{
+    border: 3px solid #000;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.about-box1:hover{
+    background: #000;
+    color: #fff;
+}
+
+
+.about-img{
+    height: 350px;
+    width: 350px;
+    border-radius: 10%;
+    background-image: url(./img/WhatsApp\ Image\ 2024-02-18\ at\ 21.22.54_d6c9d61d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+.about-img:hover{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-image: url(./img/WhatsApp\ Image\ 2024-02-18\ at\ 21.22.54_d6c9d61d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(360deg);
+
+}
+
+
+.skill_container p{
+    position: relative;
+    bottom: 0.5rem;
+}
+
+/* .routed_card{
+    transition: width 2s, height 2s, transform 2s;
+}
+.routed_card:hover{
+    transform: rotate(360deg);
+} */
